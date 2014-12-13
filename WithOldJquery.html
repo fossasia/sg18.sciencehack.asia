@@ -1,0 +1,23 @@
+<!-- With an old jQuery Library and using one of the new features of jQuery UI -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- Old Jquery Library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.2.3/jquery.min.js"></script>
+
+		<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.min.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script> <!-- jQuery UI -->
+
+		<script src="checkJquery.js"></script> <!-- Created library --> 
+		
+		<script>
+		$("document").ready(function()
+		{
+			$("#div1").animate({opacity:0.25},2000);
+		});
+		</script>
+	</head>	
+	<body>
+		<div id="div1" style="background-color:red; width:100px; height:100px; position:relative;"></div>
+	</body>
+</html>
