@@ -1,0 +1,12 @@
+{
+    "name": "code-in-chat",
+    "version": "0.0.0",
+    "private": true,
+    "description": "Chat app using nodejs and socket.io",
+    "main": "index.js",
+    "license": "GPL",
+    "dependencies": {
+        "express": "3.4.8",
+        "socket.io": "1.x"
+    }
+}
