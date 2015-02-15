@@ -1,4 +1,4 @@
-fossasia-gci
+fossasia-nodechat
 ============
 
 FOSSASIA Node Chat
