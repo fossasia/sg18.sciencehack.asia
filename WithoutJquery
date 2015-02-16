@@ -1,0 +1,21 @@
+<!-- Without jQuery Library and using one of the features of jQuery UI -->
+<!DOCTYPE html>
+<html>
+	<head>
+		
+		<script src="checkJquery.js"></script> <!-- Created library --> 
+
+		<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.min.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script> <!-- jQuery UI -->
+
+		<script>
+		$("document").ready(function()
+		{
+			$("#div1").animate({opacity:0.25},1000);
+		});
+		</script>
+	</head>	
+	<body>
+		<div id="div1" style="background-color:red; width:100px; height:100px; position:relative;"></div>
+	</body>
+</html>
