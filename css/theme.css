@@ -456,7 +456,7 @@ nav .logo {
   max-height: 45px;
   max-width: 110px;
   position: absolute;
-  top: -6px;
+  top: -15px;
   opacity: 1;
 }
 nav .text-right {
@@ -771,6 +771,7 @@ nav .container {
   }
   nav .logo-dark {
     opacity: 1 !important;
+    top: -10px;
   }
   nav .logo-light {
     opacity: 0 !important;
